@@ -1,0 +1,15 @@
+{
+  "name": "copilot-eval",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LLM provider evaluation harness for Meridia/Pneuma copilot diagram editing",
+  "scripts": {
+    "eval": "node eval.mjs",
+    "eval:meridia": "node eval.mjs --suite meridia",
+    "eval:pneuma": "node eval.mjs --suite pneuma"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "openai": "^4.89.0"
+  }
+}
